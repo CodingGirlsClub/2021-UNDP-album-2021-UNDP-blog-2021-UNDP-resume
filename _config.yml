@@ -1,0 +1,115 @@
+# "/" + 仓库的名字. 资源文件的路径组成部分
+baseurl: "/2021-UNDP-album-2021-UNDP-blog-2021-UNDP-resume"
+# 主题风格: default | candy ｜ green
+theme-styled: green
+
+# 网页的标题
+title: 我的个人主页
+
+# 个人昵称
+username: 阿 白
+# 个人简介， 显示在页面的昵称正下方
+typing_text: 全栈工程师， 专注于 Mobile, TDD, DDD 等
+
+# GitHub 仓库的用户名
+github_username: exampleUser
+# 新浪微博的用户名
+weibo_username: exampleUser
+# 知乎的用户名
+zhihu_username: exampleUser
+
+# 是否显示 关于我 这个模块， 如果值为 false, 页面不会显示该模块
+show_aboutme_card: true
+# 关于我模块的 标题
+about_me_title: 关于我
+# 关于我模块的 说明
+about_me_description: 人间温柔观察者/🍕 某 知名啥也不 是博主/已读不回专业户/🎧 重度耳机依赖患者/😒 退役魔法少女
+
+# 是否显示 技能 这个模块， 如果值为 false, 页面不会显示该模块
+show_skills_card: true
+# 技能模块的 标题
+skills_title: 我的那些个 666 的技能 😳
+
+# 技能模块中 掌握的语言名字 name 和掌握的程度 weight
+# name 的值表示语言
+# weight 的值表示掌握程度, 可以是 5/4/3/2/1 之中的任何值. 其中 5 表示掌握的很不错，依次递减
+skills-languages:
+  - name: TypeScript
+    weight: 5
+  - name: JavaScript
+    weight: 4
+  - name: Python
+    weight: 2
+  - name: HTML5
+    weight: 4
+  - name: CSS3
+    weight: 3
+  - name: SASS
+    weight: 3
+  - name: Java
+    weight: 1
+  - name: Kotlin
+    weight: 1
+  - name: C++
+    weight: 2
+  - name: Ruby
+    weight: 2
+
+# 技能模块中 喜欢或者擅长的爱好. 名字 name 和喜爱的程度 weight
+# name 的值表示爱好
+# weight 的值表示喜爱程度, 可以是 5/4/3/2/1 之中的任何值. 其中 5 表示很喜欢，依次递减
+life-favorites:
+  - name: 游泳
+    weight: 5
+  - name: 摄影
+    weight: 4
+  - name: 旅行
+    weight: 2
+  - name: 美妆
+    weight: 4
+
+# 技能模块中 其它. 名字 name 和感兴趣的程度 weight
+# name 的值表示其它
+# weight 的值表示感兴趣的程度, 可以是 5/4/3/2/1 之中的任何值. 其中 5 表示很有兴趣，依次递减
+skills-others:
+  - name: 创造101
+    weight: 2
+  - name: 动漫
+    weight: 5
+  - name: 追星
+    weight: 4
+
+# 是否显示 个人经历 这个模块， 如果值为 false, 页面不会显示该模块
+show_timeline_card: true
+# 个人经历模块的标题
+timeline_title: 学业历程 & 经历
+
+timeline:
+  - title: XX 公司
+    title-url: https://example.com/
+    date: Mar 2019 - Sep 2020
+    subtitle: 软件工程师
+    tags:
+      - tag: Java
+      - tag: Typescript
+    timeline-side: right
+
+  - title: XX 大学
+    title-url: https://example.com/
+    date: 2017 - 2019
+    subtitle: 计算机科学与技术专业/建筑专业/设计专业
+    timeline-side: left
+
+# 其它配置，可忽略
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+      "_assets",
+      "Gemfile",
+      "Gemfile.lock"
+  ]
+
+
+
